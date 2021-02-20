@@ -1,3 +1,27 @@
+<?php
+
+$db=new mysqli("localhost","root","zap","survey");
+if(isset($_POST['cfs'])){
+    $name=$_POST['name'];
+    $email=$_POST['email'];
+    $message=$_POST['message'];
+   
+
+    $q=$db->query("INSERT INTO `contactform`(`id`,`name`,`email`,`message`) VALUES ('','$name','$email','$message')");
+    if($q>0){
+        header("Location:cformsuccess.php");
+    }
+    else{
+        echo 'error occured!';
+    }
+    
+   
+}
+
+ 
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,7 +48,7 @@
                     <img src="images/cont1.svg" alt="IMG" style="height: 250px; width: 560px;">
                 </div>
 
-                <form class="contact100-form validate-form">
+                <form class="contact100-form validate-form" action="" method="post">
                     <span class="contact100-form-title">
 					<h1>Get in touch</h1>	
 					</span>
@@ -51,7 +75,7 @@
                     </div>
 
                     <div class="container-contact100-form-btn">
-                        <input type="button" class="contact100-form-btn" value="Send">
+                        <input type="submit" class="contact100-form-btn" value="Send" name="cfs">
                         </input>
                     </div>
                 </form>
