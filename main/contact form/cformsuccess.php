@@ -22,6 +22,7 @@
 <body>
     <div id="head" style="text-align:center;">
         <span>Thank You</span><br><span>For Contacting Us!</span>
+        <a href="main/index.html"></a>
     </div>
     <div id="cs">
         <span data-tilt><img src="images/cont2.svg" alt="" 
@@ -58,7 +59,7 @@
     }
     
     body {
-        background-color: #2A2F32;
+        background: linear-gradient(90deg, rgba(0,41,69,1) 6%, rgb(53, 0, 56) 29%, rgba(7,33,71,1) 84%);
         color: azure;
     }
 </style>

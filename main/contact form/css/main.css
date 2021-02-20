@@ -208,14 +208,14 @@ iframe {
     justify-content: center;
     align-items: center;
     padding: 15px;
-    background: #2A2f32;
+    background: linear-gradient(90deg, rgba(0, 41, 69, 1) 6%, rgb(53, 0, 56) 29%, rgba(7, 33, 71, 1) 84%);
     height: 650px;
 }
 
 .wrap-contact100 {
     width: 1163px;
     height: 600px;
-    background: #8696a0;
+    background: linear-gradient(90deg, rgba(0, 41, 69, 1) 6%, rgb(53, 0, 56) 29%, rgba(7, 33, 71, 1) 84%);
     border-radius: 10px;
     display: -webkit-box;
     display: -webkit-flex;

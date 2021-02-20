@@ -41,7 +41,9 @@ if(isset($_POST['cfs'])){
 
 <body>
 
-    <div class="bg-contact100" style="background-image: url('images/bg-01.jpg');">
+
+    
+    <div class="bg-contact100">
         <div class="container-contact100">
             <div class="wrap-contact100">
                 <div class="contact100-pic js-tilt" data-tilt>
@@ -49,8 +51,8 @@ if(isset($_POST['cfs'])){
                 </div>
 
                 <form class="contact100-form validate-form" action="" method="post">
-                    <span class="contact100-form-title">
-					<h1>Get in touch</h1>	
+                    <span class="contact100-form-title" style="font-family: 'Roboto Condensed', sans-serif;">
+					<h1 style="color:white; font-family: 'Roboto Condensed', sans-serif;">Get in touch</h1>	
 					</span>
 
                     <div class="wrap-input100 validate-input" data-validate="Name is required">
@@ -75,7 +77,7 @@ if(isset($_POST['cfs'])){
                     </div>
 
                     <div class="container-contact100-form-btn">
-                        <input type="submit" class="contact100-form-btn" value="Send" name="cfs">
+                        <input type="submit" class="contact100-form-btn" value="Send" name="cfs" style="color:aqua;">
                         </input>
                     </div>
                 </form>
@@ -108,3 +110,9 @@ if(isset($_POST['cfs'])){
 </body>
 
 </html>
+<style>
+    body {
+        
+        color: azure;
+    }
+</style>
