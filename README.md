@@ -13,4 +13,4 @@ This website is free to use and the code is available for everyone.
 \
 
 A Quick Guide to the website:
-![video link](https://youtu.be/mwRA4iCKcy0)
+[Video Link](https://youtu.be/mwRA4iCKcy0)
