@@ -1,5 +1,4 @@
 # Survey Web Application
-![https://github.com/adarshvulli/hackslashgitam_surveyapp/blob/main/creative%20survey.mp4]
 ##### A simple website that eases your burden of hosting a survey
 \
 This application is designed with **_HTML5_**, **_CSS_**, **_JavaScript_** and **_PHP_**. 
@@ -13,3 +12,4 @@ A survey form with pre-defined **_relevant_** feedback questions is specially ma
 This website is free to use and the code is available for everyone.
 \
 A Quick Guide to the website:
+![https://github.com/adarshvulli/hackslashgitam_surveyapp/blob/main/creative%20survey.mp4]
