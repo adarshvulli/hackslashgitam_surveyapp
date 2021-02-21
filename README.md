@@ -12,4 +12,4 @@ A survey form with pre-defined **_relevant_** feedback questions is specially ma
 This website is free to use and the code is available for everyone.
 \
 A Quick Guide to the website:
-![https://github.com/adarshvulli/hackslashgitam_surveyapp/final.jpg](https://youtu.be/mwRA4iCKcy0)
+![video link](https://youtu.be/mwRA4iCKcy0)
